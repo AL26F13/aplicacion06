@@ -10,7 +10,7 @@ document.addEventListener("deviceready",function(){
 	$('#izquierda').on('swipeleft', function (){
 		alert("Barrio a la izquierda")
 	});//barrer a la izquierda
-	$('#derecha').on('swiperigth', function (){
+	$('#derecha').on('swiperight', function (){
 		alert("Barrio a la derecha")
 	});//barrer a la derecha
 }); 
